@@ -7,8 +7,7 @@ export const getURL = () => {
       : 'http://localhost:3000';
   return url.includes('http') ? url : `https://${url}`;
 };
-
-/// comment
+//a
 
 export const postData = async ({ url, token, data = {} }) => {
   const res = await fetch(url, {
