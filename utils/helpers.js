@@ -8,6 +8,8 @@ export const getURL = () => {
   return url.includes('http') ? url : `https://${url}`;
 };
 
+/// comment
+
 export const postData = async ({ url, token, data = {} }) => {
   const res = await fetch(url, {
     method: 'POST',
